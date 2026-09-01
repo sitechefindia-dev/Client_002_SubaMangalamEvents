@@ -1,0 +1,84 @@
+{
+  "baseUrl": "https://subamangalamevents.com",
+  "routes": [
+    {
+      "path": "index.html",
+      "title": "Suba Mangalam Events | Complete Catering & Wedding Event Services in Coimbatore",
+      "metaDescription": "Complete event management and catering services in Coimbatore for weddings, birthdays, engagements, receptions, and corporate events. Decorations, catering, photography, DJ, bridal beauty & more under one roof.",
+      "sections": [
+        "hero",
+        "about-summary",
+        "services-overview",
+        "event-calculator",
+        "why-choose-us",
+        "gallery-preview",
+        "testimonials",
+        "faq-accordion",
+        "contact-cta"
+      ]
+    },
+    {
+      "path": "about.html",
+      "title": "About Us | Suba Mangalam Events Coimbatore",
+      "metaDescription": "Discover Suba Mangalam Events – Coimbatore's premier one-stop wedding & event management company dedicated to making every celebration stress-free and memorable.",
+      "sections": [
+        "page-header",
+        "brand-story",
+        "core-values",
+        "our-process",
+        "team-spotlight",
+        "cta-banner"
+      ]
+    },
+    {
+      "path": "services.html",
+      "title": "Event & Catering Services | Suba Mangalam Events",
+      "metaDescription": "Explore our full spectrum of event services: Valamaram Pandhal, Stage Decor, South & North Indian Catering, Bridal Beauty, Photography, DJ, Pyro Effects, Seer Varisai, and Luxury Cars.",
+      "sections": [
+        "page-header",
+        "catering-services",
+        "decor-services",
+        "entertainment-entry",
+        "bridal-photography",
+        "luxury-addons",
+        "quote-request"
+      ]
+    },
+    {
+      "path": "gallery.html",
+      "title": "Portfolio & Photo Gallery | Suba Mangalam Events",
+      "metaDescription": "View our portfolio of grand Coimbatore wedding decorations, traditional catering spreads, stage setups, bridal mehendi, and birthday event setups.",
+      "sections": [
+        "page-header",
+        "gallery-filters",
+        "photo-grid",
+        "video-showcase",
+        "cta-banner"
+      ]
+    },
+    {
+      "path": "pricing.html",
+      "title": "Packages & Pricing | Suba Mangalam Events",
+      "metaDescription": "Transparent wedding & celebration event packages in Coimbatore. Choose from Silver, Gold, and Royal Diamond packages or customize your own event package.",
+      "sections": [
+        "page-header",
+        "package-tiers",
+        "package-comparison",
+        "custom-estimator-tool",
+        "faq-pricing"
+      ]
+    },
+    {
+      "path": "contact.html",
+      "title": "Contact Us & Book Event | Suba Mangalam Events Coimbatore",
+      "metaDescription": "Get in touch with Suba Mangalam Events Coimbatore. Call +91 9025769906 or send an instant WhatsApp booking enquiry for catering and event management.",
+      "sections": [
+        "page-header",
+        "contact-info-cards",
+        "booking-lead-form",
+        "google-map-embed",
+        "faq-contact"
+      ]
+    }
+  ]
+}

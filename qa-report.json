@@ -1,0 +1,11 @@
+{
+  "clientId": "client-003_suba-mangalam-events",
+  "passed": true,
+  "checks": {
+    "responsive": true,
+    "links": true,
+    "seo": true,
+    "accessibility": true
+  },
+  "issues": []
+}

@@ -1,0 +1,15 @@
+{
+  "paletteId": "maroon-gold-luxury",
+  "colors": {
+    "primary": "#800020",
+    "secondary": "#D4AF37",
+    "accent": "#B8860B",
+    "background": "#FFF8E7",
+    "surface": "#FFFFFF",
+    "text": "#2B1B17"
+  },
+  "typography": {
+    "headingFont": "'Playfair Display', 'Cormorant Garamond', serif",
+    "bodyFont": "'Outfit', 'Plus Jakarta Sans', sans-serif"
+  }
+}
