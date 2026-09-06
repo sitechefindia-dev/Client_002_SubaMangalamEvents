@@ -82,9 +82,13 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!eventTypeSelect || !guestCountInput || !decorTierSelect || !cateringTierSelect || !priceDisplay) return;
 
     const eventMultiplier = parseFloat(eventTypeSelect.value) || 1.0;
-    const guests = parseInt(guestCountInput.value) || 100;
-    const decorBase = parseInt(decorTierSelect.value) || 25000;
-    const perPlateCatering = parseInt(cateringTierSelect.value) || 350;
+    let guests = parseInt(guestCountInput.value, 10);
+    if (isNaN(guests) || guests < 50) {
+      guests = 50;
+    }
+
+    const decorBase = parseInt(decorTierSelect.value, 10) || 25000;
+    const perPlateCatering = parseInt(cateringTierSelect.value, 10) || 350;
 
     const totalCatering = guests * perPlateCatering;
     const grandTotal = Math.round((decorBase + totalCatering) * eventMultiplier);
@@ -94,7 +98,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (whatsappCalcBtn) {
       const eventName = eventTypeSelect.options[eventTypeSelect.selectedIndex].text;
-      const message = `Hello Suba Mangalam Events, I calculated a quick estimate on your website for a ${eventName} with ${guests} guests. Estimated Total: ${formattedPrice}. I would like to check date availability!`;
+      const decorName = decorTierSelect.options[decorTierSelect.selectedIndex].text;
+      const cateringName = cateringTierSelect.options[cateringTierSelect.selectedIndex].text;
+      const message = `Hello Suba Mangalam Events, I calculated a package estimate on your website for a ${eventName} with ${guests} guests.\n- Decor: ${decorName}\n- Catering: ${cateringName}\n- Estimated Total: ${formattedPrice}\n\nI would like to check date availability!`;
       whatsappCalcBtn.href = `https://wa.me/919025769906?text=${encodeURIComponent(message)}`;
     }
   }
@@ -102,6 +108,12 @@ document.addEventListener('DOMContentLoaded', () => {
   if (eventTypeSelect && guestCountInput && decorTierSelect && cateringTierSelect) {
     eventTypeSelect.addEventListener('change', calculateEstimate);
     guestCountInput.addEventListener('input', calculateEstimate);
+    guestCountInput.addEventListener('change', () => {
+      if (parseInt(guestCountInput.value, 10) < 50 || isNaN(parseInt(guestCountInput.value, 10))) {
+        guestCountInput.value = 50;
+        calculateEstimate();
+      }
+    });
     decorTierSelect.addEventListener('change', calculateEstimate);
     cateringTierSelect.addEventListener('change', calculateEstimate);
     calculateEstimate();

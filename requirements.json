@@ -2,7 +2,7 @@
   "clientId": "client-003_suba-mangalam-events",
   "clientName": "Suba Mangalam Events",
   "category": "general-business",
-  "tagline": "Made with Love, Served with Care — Complete Event & Catering Solutions in Coimbatore",
+  "tagline": "Made with Love, Served with care",
   "primaryColor": "#800020",
   "secondaryColor": "#D4AF37",
   "pages": [
@@ -15,10 +15,13 @@
   ],
   "contact": {
     "email": "subamangalam.events@gmail.com",
-    "phone": "+91 9025769906",
-    "address": "C-35, VOC Nagar, Ganapathy, Coimbatore - 641006, Tamil Nadu"
+    "phone": "9025769906",
+    "address": "C-35, VOC Nagar, Coimbatore-641006."
   },
-  "logoOption": "generate_simple_svg",
-  "workingHours": "8:00 AM - 8:00 PM",
-  "whatsappNumber": "9025769906"
+  "workingHours": "8:00AM - 8:00PM",
+  "whatsappNumber": "9025769906",
+  "rawOverview": "Our business provides catering and event services for a wide range of occasions, including weddings, corporate events, private parties, celebrations, and social gatherings. We offer customized food menus, professional catering, event planning, and end-to-end event support based on our clients\u2019 needs and budgets.Our target audience includes individuals, families, companies, and organizations looking for reliable and high-quality catering and event solutions. Our primary value proposition is to deliver delicious food, professional service, and well-organized events that create memorable experiences for our customers.",
+  "intakeRowNumber": 3,
+  "intakeSheetUrl": "https://docs.google.com/spreadsheets/d/1yuqdJIEk2DfS9zjx1e4f8wsxHdnXM4b1I8HvtDWO-FE/edit?usp=sharing",
+  "grievanceSheetUrl": "https://docs.google.com/spreadsheets/d/1nsiXUf8RGM1aolK5zvI1T9biurvEU2aCyjTkwGx0cpk/edit?usp=sharing"
 }
